@@ -4,121 +4,169 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deupload</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!--  -->
-    <nav class="navbar p-1">
-      <div class="container">
-        <a href="" class="navbar-brand pb-3 pb-sm-0">
-          <img src="./assets/logo-color 1.png" alt="" />
-        </a>
+    <header class="p-3">
+      <div class="container-fluid">
+        <div
+          class="header-wrapper d-flex flex-column row-gap-3 flex-sm-row justify-content-sm-between"
+        >
+          <img
+            src="./assets/logo-color 1.png"
+            alt=""
+            width="169px"
+            class="align-self-center"
+          />
 
-        <div class="d-flex align-items-center gap-3">
-          <button class="btn-1">Sign In</button>
-          <button class="btn-2">Create an account</button>
-        </div>
-      </div>
-    </nav>
-
-    <div class="bg-hero">
-      <section class="hero">
-        <div class="container">
-          <div class="text-center">
-            <h1 class="mb-4">
-              <span class="d-block">File storage and sharing for</span>
-              <span class="d-block">remote teams that work </span>
-              <span class="d-block"
-                >together on <span class="color-change">Web3</span></span
-              >
-            </h1>
-            <p class="mb-4">
-              <span class="d-block"
-                >Deupload is a online file manager on decentralized cloud
-                storage and IPFS that</span
-              >
-              <span class="d-block"
-                >allows you storage, share, collect files privately and team
-                collaboration without</span
-              >
-              <span class="d-block">subscription.</span>
-            </p>
-            <div class="">
-              <button class="btn-2">Get Started</button>
-              <button class="btn-1">Pricing</button>
-            </div>
+          <div class="nav-btn-color d-flex gap-4 justify-content-center">
+            <a href="" class="btn btn-outline-dark">Sign In</a>
+            <a href="" class="btn btn-primary">Create an account</a>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </header>
 
-    <section class="px-5">
+    <section class="hero">
       <div class="container">
-        <div class="hero-img">
-          <img
-            src="./assets/deupoad-hero-screen 1@2x.png"
-            alt=""
-            class="w-100"
-          />
+        <div class="hero-wrapper text-center">
+          <h1 class="fw-bold mb-4">
+            <span class="d-block">File storage and sharing for </span>
+            <span class="d-block">remote teams that work </span>
+            <span class="d-block"
+              >together on <span class="uniqe-color">Web3</span></span
+            >
+          </h1>
+          <p class="mb-4">
+            <span class="d-block"
+              >Deupload is a online file manager on decentralized cloud storage
+              and IPFS that</span
+            >
+            <span class="d-block"
+              >allows you storage, share, collect files privately and team
+              collaboration without</span
+            >
+            <span class="d-block">subscription.</span>
+          </p>
+          <div class="d-flex gap-4 justify-content-center">
+            <a href="" class="btn btn-primary">Get Started</a>
+            <a href="" class="btn btn-outline-dark">Pricing</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="three-cards-sec">
+    <section class="hero-img">
       <div class="container">
-        <div class="three-cards">
+        <img src="./assets/deupoad-hero-screen 1@2x.png" alt="" width="100%" />
+      </div>
+    </section>
+
+    <section class="Lightning">
+      <div class="container">
+        <div class="Lightning-wrapper">
+          <div class="Lightning-heading text-center mb-5">
+            <h2 class="mb-2 fw-bold">
+              Lightning fast. Better privacy. Fairer cost.
+            </h2>
+            <p class="mb-4">
+              <span class="d-block"
+                >You can choose continue to use centralized cloud storage but we
+                have some better reasons for</span
+              >
+              <span class="d-block"
+                >you to start moving to decentralized storage because it is
+                simply the future of the internet.</span
+              >
+            </p>
+          </div>
+          <div class="Lightning-wrapper">
+            <div class="row">
+              <div class="col col-sm-12 col-md-6 col-lg-4 g-4">
+                <div class="Lightning-wrapper-col-bg">
+                  <img
+                    class="mb-4"
+                    src="./assets/lightning/Lightweight.png"
+                    alt=""
+                  />
+                  <h4 class="mb-4">Lightweight</h4>
+                  <p>
+                    Designed to be lightweight to help you enhance team
+                    collaboration by organizing and sharing files in your
+                    projects without stress.
+                  </p>
+                  <a href="">Products</a>
+                </div>
+              </div>
+              <div class="col col-sm-12 col-md-6 col-lg-4 g-4">
+                <div class="Lightning-wrapper-col-bg">
+                  <img
+                    class="mb-4"
+                    src="./assets/lightning/decentralization.png"
+                    alt=""
+                  />
+                  <h4 class="mb-4">Decentralization</h4>
+                  <p>
+                    Store data securely on over 13k nodes worldwide instead of
+                    just a few vulnerable data centers with privacy and
+                    lightning speed by design.
+                  </p>
+                  <a href="">Products</a>
+                </div>
+              </div>
+              <div class="col col-sm-12 col-md-6 col-lg-4 g-4">
+                <div class="Lightning-wrapper-col-bg">
+                  <img class="mb-4" src="./assets/lightning/--.png" alt="" />
+                  <h4 class="mb-4">-–</h4>
+                  <p>
+                    With Pay-as-you-go pricing, now you only pay for the
+                    resource you use without being charged a flat monthly fee
+                    even if you don’t use it up.
+                  </p>
+                  <a href="">Products</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Yourdesign">
+      <div class="container">
+        <div class="Yourdesign-heading">
+          <h1 class="fw-bold">
+            <span class="d-block">Your design, ready to use </span>
+            <span class="d-block">for <span class="uniqe-color">team productivity.</span></span>
+          </h1>
+        </div>
+
+        <div class="Yourdesign-wrapper">
           <div class="row">
-            <div class="text-center col-12 mb-5">
-              <h2 class="fw-bold mb-3">Lightning fast. Better privacy. Fairer cost.</h2>
-              <p>
-                <span class="d-block"
-                  >You can choose continue to use centralized cloud storage but
-                  we have some better reasons for</span
-                >
-                <span class="d-block"
-                  >you to start moving to decentralized storage because it is
-                  simply the future of the internet.</span
-                >
-              </p>
-            </div>
-            <div class="col">
-              <div class="p-5 rounded-4">
-                <img src="./assets/Lightweight.png" class="mb-4" alt="" />
-                <h4 class="mb-4 text-light fw-bold">Lightweight</h4>
-                <p class="mb-4 text-light">
-                  Designed to be lightweight to help you enhance team
-                  collaboration by organizing and sharing files in your projects
-                  without stress.
+            <div class="col-12 col-lg-6 g-5">
+              <div class="yd-bg-1 text-center">
+                <h3 class="fw-bold">File Sharing</h3>
+                <p>
+                  <span class="d-block">Securely share files within or outside your</span>
+                  <span class="d-block">organization, and control access, track edits,</span>
+                  <span class="d-block">and analyze the shared content stats.</span>
                 </p>
-                <a href="" class="text-light text-decoration-none">Products -></a>
+                <img src="./assets/teamdesign/img1.png" alt="" width="100%"/>
               </div>
             </div>
-            <div class="col">
-              <div class="p-5 rounded-4">
-                <img src="./assets/decentralization.png" class="mb-4" alt="" />
-                <h4 class="mb-4 text-light fw-bold">Decentralization</h4>
-                <p class="mb-4 text-light">
-                  Store data securely on over 13k nodes worldwide instead of
-                  just a few vulnerable data centers with privacy and lightning
-                  speed by design.
+            <div class="col-12 col-lg-6 g-5">
+              <div class="yd-bg-2 text-center">
+                <h3 class="fw-bold">File Sharing</h3>
+                <p>
+                  <span class="d-block">You can collect and receive files in a secure</span>
+                  <span class="d-block">environment, even if the other person doesn’t</span>
+                  <span class="d-block">have a Deupload account.</span>
                 </p>
-                <a href="" class="text-light text-decoration-none">Products -></a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-5 rounded-4">
-                <img src="./assets/--.png" class="mb-4" alt="" />
-                <h4 class="mb-4 text-light fw-bold">-–</h4>
-                <p class="mb-4 text-light">
-                  With Pay-as-you-go pricing, now you only pay for the resource
-                  you use without being charged a flat monthly fee even if you
-                  don’t use it up.
-                </p>
-                <a href="" class="text-light text-decoration-none">Products -></a>
+                <img src="./assets/teamdesign/img2.png" alt="" width="100%"/>
               </div>
             </div>
           </div>

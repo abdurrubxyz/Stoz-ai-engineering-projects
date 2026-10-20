@@ -14,7 +14,10 @@ body {
 .hero-img,
 .Lightning,
 .Yourdesign,
-.privacy
+.privacy,
+.simple,
+.work,
+.get-ready
 {
     padding: 100px 0px;
 }
@@ -133,4 +136,60 @@ body {
 }
 .sec-col > div p {
     color: var(--para-color);
+}
+
+/*  */
+.bg-simple {
+    background: url(../assets/Rectangle\ 496.png) no-repeat center;
+    background-size: cover;
+}
+.simple {
+    margin-bottom: 100px;
+}
+
+.simple-row > div:nth-child(1) > div:first-child{
+    background-color: #FFFFFF;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+.simple-row > div:nth-child(1) > div:first-child >p:first-child {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.simple-row > div:nth-child(2) > div:first-child {
+    background-color: #651FFF;
+    border-radius: 24px;
+    padding: 50px 80px;
+    color: #FFFFFF;
+}
+.simple-row > div:nth-child(2) > div:first-child >p:first-child {
+    font-size: 32px;
+    font-weight: 500;
+}
+.simple-heading {
+    margin-bottom: 100px;
+}
+.simple-heading p {
+    color: var(--para-color);
+}
+.simple-heading h2 {
+    font-size: 64px;
+}
+.color-5 {
+    color: var(--pri-color);
+}
+
+.work-heading {
+    margin-bottom: 80px;
+}
+
+.work-heading h1 {
+    font-size: 48px;
+}
+.work-heading p {
+    color: var(--para-color);
+}
+.work-row h5{
+    font-size: 24px;
 }

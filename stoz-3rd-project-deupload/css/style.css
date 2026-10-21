@@ -193,3 +193,8 @@ body {
 .work-row h5{
     font-size: 24px;
 }
+.get-ready-wrapper > div > div:first-child {
+    background-color: rgba(101, 31, 255);
+    padding: 20px;
+    border-radius: 24px;
+}

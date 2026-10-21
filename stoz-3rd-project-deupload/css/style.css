@@ -198,3 +198,8 @@ body {
     padding: 20px;
     border-radius: 24px;
 }
+.get-ready-wrapper > div > div:nth-child(2) > div {
+    background-color: #ECECFE;
+    padding: 20px;
+    border-radius: 24px;
+}
